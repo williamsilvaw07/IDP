@@ -1025,8 +1025,8 @@ footer .icons {
 
 .porfolio_footer {
     text-align: center;
-    background-color: #333333;
-    color: white;
+    background-color: transparent;
+    color: black;
     margin-top: -70px
 }
 
