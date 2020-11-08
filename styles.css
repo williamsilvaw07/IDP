@@ -413,10 +413,13 @@ h2 {
     -ms-flex-pack: center;
     justify-content: center;
     font-family: 'Mukta', sans-serif;
+    position: relative;
+    top: -300px;
+
 
 }
 
-.aboutme_home {}
+
 
 .about_flex p {
     margin-top: 0px;
@@ -445,6 +448,7 @@ h2 {
 .porfolio_grid_home {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
 }
 
 .first_house {
@@ -464,7 +468,9 @@ h2 {
     -ms-flex-pack: center;
     justify-content: center;
     margin-top: 300px;
-    margin-bottom: 200px
+
+    position: relative;
+    top: -250px
 }
 
 
@@ -500,7 +506,6 @@ h2 {
     top: 0;
     bottom: 0;
     left: 4%;
-
     right: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -580,9 +585,9 @@ h2 {
 
 .services {
     position: absolute;
-    top: 1950px;
+    top: 1800px;
     font-family: 'Mukta', sans-serif;
-    z-index: -1;
+
 
 }
 
@@ -789,13 +794,13 @@ h3 {
 
 .background_footer {
     background-color: #333333;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-repeat: none;
     background-position: bottom;
     background-size: cover;
     position: absolute;
-    top: 4000px;
+    top: 3850px;
     text-align: center
 }
 
