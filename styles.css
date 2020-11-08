@@ -793,20 +793,20 @@ h3 {
 }
 
 .background_footer {
-    background-color: #333333;
+    background-color: transparent;
     height: 60vh;
     width: 100%;
     background-repeat: none;
     background-position: bottom;
     background-size: cover;
     position: absolute;
-    top: 3850px;
+    top: 4150px;
     text-align: center
 }
 
 
 .main_footer {
-    color: white
+    color: black
 }
 
 h5 {
@@ -822,7 +822,7 @@ h5 {
 .main_footer {
 
     position: relative;
-    top: 1000px;
+    top: 1600px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
