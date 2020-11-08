@@ -53,7 +53,8 @@ header {
 
 header {
     position: absolute;
-    top: 0px
+    top: 0px;
+    height: 140px
 }
 
 /***class for the fixed header*/
