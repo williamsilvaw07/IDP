@@ -43,11 +43,17 @@ header {
     margin-left: 90px;
     cursor: pointer;
     -webkit-transition: ease-out 0.3s;
-    transition: ease-out 0.3s
+    transition: ease-out 0.3s;
+    z-index: 999
 }
 
 ._otherpage {
     z-index: 99
+}
+
+header {
+    position: absolute;
+    top: 0px
 }
 
 /***class for the fixed header*/
@@ -71,7 +77,8 @@ header {
     transition: ease-in 0.3s box-shadow: 0 9px 31px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0 9px 31px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 9px 31px rgba(0, 0, 0, 0.5);
-
+    position: fixed;
+    top: 0px;
 }
 
 /**end*/
@@ -324,17 +331,9 @@ p {
 }
 
 .main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    position: relative;
-
-
+    position: absolute;
+    top: 30%;
+    left: 5%
 }
 
 .grid_top_home {
@@ -344,9 +343,8 @@ p {
     grid-gap: 30%;
     font-family: 'Mukta', sans-serif;
 
-    position: absolute;
-    left: 100px;
-    margin-top: 250px;
+
+
     z-index: 1
 }
 
@@ -1135,7 +1133,7 @@ footer .icons {
 }
 
 .right_grid {
-    background: url(http://impreza16.us-themes.com/wp-content/uploads/2019/09/oscar-neira-8e0rb4LC4IA-unsplash.jpg?id=3732);
+    background: url(Pictures/proflie_pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1205,8 +1203,8 @@ footer .icons {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("http://impreza16.us-themes.com/wp-content/uploads/2019/09/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://impreza16.us-themes.com/wp-content/uploads/2019/09/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg");
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Pictures/alberto-castillo.jpg");
     background-repeat: no-repeat;
     text-align: center
 }
@@ -1218,7 +1216,7 @@ footer .icons {
     background-repeat: no-repeat;
     background-size: cover;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://impreza16.us-themes.com/wp-content/uploads/2019/09/hutomo-abrianto-9ZvuWg8deho-unsplash.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Pictures/hutomo-abrianto.jpg");
     background-repeat: no-repeat;
     text-align: center
 }
@@ -2304,8 +2302,9 @@ textarea {
         left: 310px;
 
     }
+
     .main_home_top {
-    width: : 100%!important
+        width: : 100% !important
     }
 
 }
