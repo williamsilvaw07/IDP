@@ -580,9 +580,10 @@ h2 {
 
 .services {
     position: absolute;
-    top: 1650px;
+    top: 1950px;
     font-family: 'Mukta', sans-serif;
-    z-index: -1
+    z-index: -1;
+
 }
 
 
@@ -751,7 +752,7 @@ h3 {
 
 .contact_section {
     position: absolute;
-    top: 3900px;
+    top: 4100px;
 
     height: 30vh;
     width: 200%;
@@ -790,14 +791,11 @@ h3 {
     background-color: #333333;
     height: 50vh;
     width: 100%;
-
     background-repeat: none;
     background-position: bottom;
     background-size: cover;
     position: absolute;
-    top: 4300px;
-    margin-bottom: -50px;
-
+    top: 4000px;
     text-align: center
 }
 
@@ -811,13 +809,15 @@ h5 {
     font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 40px;
-    margin-top: 50px
+    margin-top: 50px;
+    position: relative;
+    top: 00px
 }
 
 .main_footer {
 
-    position: absolute;
-    top: 4300px;
+    position: relative;
+    top: 1000px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -832,12 +832,15 @@ h5 {
     margin: 0 auto;
     width: 100%;
     font-family: 'Mukta', sans-serif;
+
 }
 
 
 footer p {
     margin-bottom: 20px;
-    font-weight: lighter
+    font-weight: lighter;
+    position: relative;
+    top: 0px
 }
 
 #first_p {
