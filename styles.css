@@ -78,7 +78,7 @@ header {
     -webkit-box-shadow: 0 9px 31px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 9px 31px rgba(0, 0, 0, 0.5);
     position: fixed;
-    top: 0px
+    top: 0px;
 }
 
 /**end*/
