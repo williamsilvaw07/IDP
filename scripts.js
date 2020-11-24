@@ -77,10 +77,11 @@ $(".decoration h3").click(function () {
 
 
 
+
 $(window).scroll(function () {
     if ($(window).scrollTop() > 1) {
-
-        $("header").addClass('header_fixed')
+        $(".home_section_header").addClass('header_fixed_index')
+        $(".other_page_div").addClass('header_fixed')
         $(".navbar li").addClass("nav_fiexed")
         $(".logo ").addClass('logo_fixed')
         $(".toggle-menu").addClass('toogle_fixed')
@@ -90,8 +91,8 @@ $(window).scroll(function () {
 
 $(window).scroll(function () {
     if ($(window).scrollTop() < 1) {
-
-        $("header").removeClass('header_fixed')
+        $(".home_section_header").removeClass('header_fixed_index')
+        $(".other_page_div").removeClass('header_fixed')
         $(".navbar li").removeClass("nav_fiexed")
         $(".logo ").removeClass('logo_fixed');
         $(".toggle-menu").removeClass('toogle_fixed')
