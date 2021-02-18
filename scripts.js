@@ -11,7 +11,7 @@ toggleButton.addEventListener('click', () => {
 
 
 //Design Project drop down
-
+e.preventDefault();
 $("#down_arrow").click(function () {
     $(this).toggleClass("up_class");
 
@@ -20,7 +20,7 @@ $("#down_arrow").click(function () {
 
 })
 $(".Services_sections h3").click(function () {
-    $("#down_arrow").toggleClass("up_class");
+    $("#down_arrow").addClass("up_class");
 
     $("#design_project").slideToggle(500);
     e.preventDefault();
