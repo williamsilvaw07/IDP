@@ -10,7 +10,7 @@
 
 
 body {
-    overflow-x: hidden
+    overflow-x: hidden!important
 }
 
 button {
@@ -2301,6 +2301,10 @@ textarea {
 
 
 
+    }
+
+    .main_footer{
+      display: none;
     }
 
     .Services_line1 {
